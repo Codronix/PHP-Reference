@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: "Arial";
+}
+
+table {
+    border-left: 1px solid #dddd;
+    border-right: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    width: 100%;
+    overflow: auto;
+    height: 250px;
+    display: block;
+}
+
+th,td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #dddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.box_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    height: 100px;
+    margin-bottom: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.TopNavBar{
+    align-items: center;
+    align-content: center;
+    background-color: lightseagreen;
+    height: auto;
+    padding: 10px;
+}
+.a_Nav{
+    color: white;
+    background-color: rgb(21, 110, 106);
+    padding: 3px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.a_Delete{
+    color: white;
+    background-color: red;
+    padding: 3px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.search-input{
+    float: right;
+}
