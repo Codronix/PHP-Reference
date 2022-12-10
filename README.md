@@ -1,2 +1,2 @@
 # PHP-Reference
-- A simple system showing to use php with SQL Database
+- A simple system showing how to use php with SQL Database
